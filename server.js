@@ -11,7 +11,7 @@ var application = require('./modules/app.js')
 app.use(express.static('public'));
 //type in localhost:3000/balance into your url
 app.get('/balance',function(req,res){
-  res.send('Here\'s some more money' + balance.words() +  ' '  + balance.numbers());
+  res.send('You Fool!' + balance.words() +  ' '  + balance.numbers() +' toward world domination');
 });
 
 

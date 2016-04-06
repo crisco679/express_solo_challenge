@@ -7,7 +7,7 @@ function getNumbers(){
 }
 
 function getWords() {
-  return "Account Balance: \n";
+  return "You donated: \n";
 
 }
 exports.numbers=getNumbers;
